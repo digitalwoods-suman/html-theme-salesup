@@ -1,0 +1,90 @@
+// MY THENE COLOR 
+$blue-dark: #15186c;
+$blue-light: #e8f6ff;
+$pink: #eb8045;
+// White & Grey Color 
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary: $blue-dark;
+$secondary: $pink;
+$primary_light: $blue-light;
+
+body {
+    margin: 0;
+    font-family: 'Red Hat Text', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+    line-height: 1.8em !important;
+    letter-spacing: 0 !important;
+    color: #333 !important;
+    font-size: 18px !important;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    font-family: 'Lexend', sans-serif !important;
+}
+
+h3 {
+    font-family: Lexend, sans-serif !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    line-height: 1.2em !important;
+    letter-spacing: 0 !important;
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    text-transform: none !important;
+    margin: 0 0 0.5em !important;
+    color: #333 !important;
+}
+
+
+// ACCORDIAN CUSTOM COLOR
+.accordion-body {
+    padding: 1.5rem 1rem !important;
+}
+
+.accordion-button {
+    padding: 1.30rem 1.25rem !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button:focus {
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+
+
+
+// Import Boostrap v-5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

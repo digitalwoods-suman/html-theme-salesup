@@ -1,0 +1,11 @@
+@use '../custom' as *;
+
+.faq-section {
+    background: $primary_light;
+    padding: 7.5rem 0;
+
+    .faq-contant {
+        padding: 50px;
+        background: $white;
+    }
+}

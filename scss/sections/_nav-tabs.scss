@@ -1,0 +1,64 @@
+@use '../custom' as *;
+
+.click-navbar {
+    padding: 7.5rem 0;
+
+    // NAV TAB ITEMS
+    .nav-tabs {
+        justify-content: center !important;
+        border: none !important;
+    }
+
+    .nav-tabs .nav-link {
+        font-weight: 500;
+        font-family: Lexend, sans-serif !important;
+        border: none !important;
+    }
+
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        border-color: none !important;
+        color: $secondary;
+    }
+
+    .nav-tabs .nav-item.show .nav-link {
+        color: $primary !important;
+        font-weight: 500 !important;
+    }
+
+    .nav-tabs .nav-link:hover,
+    .nav-tabs .nav-link:focus {
+        color: $secondary !important;
+    }
+
+    .nav-tab-contant {
+        padding: 50px 50px 0px 50px;
+    }
+
+    .first-tab-contant {
+        width: 300px;
+        // margin-left: auto;
+        margin: 0 auto;
+    }
+
+    .first-tab-contant img {
+        width: 100%;
+    }
+
+    .second-tab-contant h4 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .second-tab-contant p {
+        font-size: 18px;
+        margin-bottom: 1.5rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .first-tab-contant {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@use '../custom' as *;
+
+.button {
+    cursor: pointer;
+    transition: all .15s linear;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+}
+
+.boost_primary_button {
+    font-family: Lexend, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: none;
+    background: $primary_light;
+    color: $primary;
+    padding: 10px 30px;
+    width: 190px;
+    height: 60px;
+    border: 3px solid $primary;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0 $primary;
+    justify-content: center;
+}
+
+.boost_primary_button:hover {
+    font-weight: 700;
+    background: $primary;
+    color: $primary_light;
+    padding: 10px 30px;
+    border: 3px solid $primary;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0 $primary;
+}
+
+.boost_secondary_button {
+    font-family: Lexend, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: none;
+    background: $white;
+    color: $primary;
+    padding: 10px 30px;
+    width: 190px;
+    height: 60px;
+    border: 3px solid $primary;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0 $primary;
+    justify-content: center;
+
+}
+
+.boost_secondary_button:hover {
+    font-weight: 700;
+    background: $primary;
+    color: $primary_light;
+    padding: 10px 30px;
+    border: 3px solid $primary;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0 $primary;
+
+}

@@ -1,0 +1,26 @@
+@use '../custom' as *;
+
+.menu_link {
+    background: $white;
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $primary;
+            padding: 0 0.7rem;
+            text-transform: capitalize;
+            font-weight: 600;
+
+        }
+
+        &:hover {
+            color: $primary;
+        }
+
+    }
+
+    .nav-link.active {
+        color: $secondary;
+    }
+}

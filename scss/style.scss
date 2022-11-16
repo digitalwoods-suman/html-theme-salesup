@@ -1,0 +1,17 @@
+@use 'custom';
+// IMPORT ALL COMPONENTS 
+@use 'components/animations';
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+// IMPORT ALL SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/services';
+@use 'sections/grid-section';
+@use 'sections/blocks';
+@use 'sections/nav-tabs';
+@use 'sections/count-box';
+@use 'sections/cta-section';
+@use 'sections/faq';
+@use 'sections/footer';

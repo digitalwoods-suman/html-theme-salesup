@@ -1,0 +1,5 @@
+@use '../custom' as *;
+
+@mixin svg_color {
+    fill: $secondary;
+}
