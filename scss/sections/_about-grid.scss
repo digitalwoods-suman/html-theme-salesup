@@ -1,0 +1,33 @@
+@use '../custom' as *;
+
+.about-grid {
+    padding: 7.5rem 0;
+    background: #f6f4fe;
+
+    .app_images {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .first_grid_image {
+            width: 350px;
+            margin: 0 auto;
+        }
+
+    }
+
+    .app_images::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 570px;
+        height: 570px;
+        border-radius: 100%;
+        background: $white;
+        z-index: -1;
+    }
+}

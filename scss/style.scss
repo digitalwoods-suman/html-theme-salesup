@@ -15,3 +15,15 @@
 @use 'sections/cta-section';
 @use 'sections/faq';
 @use 'sections/footer';
+// IMPORT ABOUT PAGE SECTION
+@use 'sections/about-intro';
+@use 'sections/about-grid';
+@use 'sections/about-why-choose-us';
+// IMPORT CONTACT US PAGE SECTION
+@use 'sections/contact-grid-section';
+// IMPORT 404 PAGE DESIGN
+@use 'sections/not-found-page';
+// IMPORT SERVICE PAGE DESIGN
+@use 'sections/service-grid';
+// STYLE FOR SLIC SLIDER
+@use 'sections/slic-slider';

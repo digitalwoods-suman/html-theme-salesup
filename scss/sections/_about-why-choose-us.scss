@@ -1,0 +1,26 @@
+@use '../custom' as *;
+
+.why-choose-us {
+    padding: 7.5rem 0;
+
+    .section_title {
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            color: $primary;
+        }
+    }
+
+    .why_box {
+        .icon {
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            font-size: 24px !important;
+            font-weight: 600;
+            color: $primary;
+            margin-bottom: 10px;
+        }
+    }
+}

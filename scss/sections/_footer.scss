@@ -72,6 +72,10 @@
         }
     }
 
+    .nav-link.active {
+        color: $secondary;
+    }
+
     @media only screen and (max-width: 600px) {
         .footer-logo {
             margin: 0 auto;

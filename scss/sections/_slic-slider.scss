@@ -1,0 +1,28 @@
+@use '../custom' as *;
+
+.slick-prev:before,
+.slick-next:before {
+    color: $primary !important;
+}
+
+
+
+// .image_group img {
+//     width: 100%;
+// }
+
+.testimonial-section {
+    padding: 7.5rem 0;
+
+    .testimonial_contant {
+        margin: 0 10px;
+
+        .testi-image {
+            width: 100px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

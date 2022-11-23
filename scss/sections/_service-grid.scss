@@ -1,0 +1,31 @@
+@use '../custom' as *;
+
+.service-section-grid {
+    padding: 7.5rem 0;
+
+    .service-contant {
+        background: $primary;
+        color: $white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+        svg {
+            fill: $white;
+            margin-bottom: 20px;
+        }
+    }
+
+    .service-contant:hover {
+        background: $white;
+        color: $primary;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 50px 0 rgb(0 0 0 / 10%);
+    }
+
+    .service-contant:hover svg {
+        fill: $primary;
+    }
+
+}

@@ -20,7 +20,8 @@
 
     }
 
-    .nav-link.active {
+    .navbar-nav .show>.nav-link,
+    .navbar-nav .nav-link.active {
         color: $secondary;
     }
 }
